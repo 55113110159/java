@@ -28,7 +28,7 @@ WORKDIR /mxl
 
 # Copy files:
 COPY startbot.sh /mxl
-COPY /ijk /mxl/ijk
+COPY /mxl /mxl/ijk
 
 # Run config.sh and clean up APT:
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
