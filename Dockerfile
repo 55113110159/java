@@ -1,4 +1,4 @@
-FROM phusion/baseimage:jammy-1.0.0
+FROM phusion/baseimage:bionic-1.0.0
 
 # Use baseimage-docker's init system:
 CMD ["/sbin/my_init"]
@@ -27,7 +27,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /mxl
 
 # Copy files:
-COPY mxl.sh /mxl
+COPY startbot.sh /mxl
 COPY /ijk /mxl/ijk
 
 # Run config.sh and clean up APT:
